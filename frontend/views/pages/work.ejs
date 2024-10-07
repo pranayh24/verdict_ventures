@@ -1,0 +1,40 @@
+<% layout("/layouts/boilerplate.ejs") %>
+
+<body>
+    <h2>
+        How Our Model Works:<br><br>
+    </h2>
+        <h3>
+            Our model streamlines legal research and prediction by automating the analysis and summarization of complex legal data.
+            Here's how it works step-by-step:<br><br>
+            
+            User Authentication: Users (e.g., legal professionals) securely log in to access our platform.<br><br>
+            
+            Data Collection: Once authenticated, the system collects legal data from commercial courts.<br><br>
+            
+            Natural Language Processing (NLP): The collected legal data undergoes various NLP techniques to extract valuable
+            insights:<br><br>
+            
+            Data Preprocessing (spaCy): Text is cleaned and preprocessed for further analysis.<br><br>
+            Feature Extraction (Gensim): Specific features are extracted from the data to represent important aspects.<br><br>
+            Legal-Specific Abstraction (Transformers): Advanced models abstract relevant legal details to make sense of large
+            volumes of text.<br><br>
+            Evaluation (ROUGE): Custom algorithms assess the quality of legal data and summarizations.<br><br>
+            Predictive ML Model: Using TF-IDF and scikit-learn, the system builds a predictive model based on historical legal data.
+            This model is designed to predict outcomes or provide legal insights for cases, helping users anticipate decisions or
+            trends. The data is stored in MongoDB for easy access and scalability.<br><br>
+            
+            Explainability Tool (LIME): To enhance transparency, we use LIME (Local Interpretable Model-Agnostic Explanations),
+            which helps users understand how the predictions are made. This ensures that the model is interpretable and that users
+            can trust the outcomes.<br><br>
+            
+            Predictive & Summarized Results: The results are then delivered in two forms:<br><br>
+            
+            Predictive Results: Offers insights and potential outcomes based on the models predictions.<br><br>
+            Summarized Results: Condenses the key points of legal documents for easier understanding.<br><br>
+            User Interface (UI): All of this is integrated into an easy-to-use interface, where users can view predictions,
+            summaries, and explanations in a clear, intuitive manner.
+        
+        </h3>
+    
+</body>
