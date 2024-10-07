@@ -11,9 +11,13 @@ This project aims to develop an AI-powered research engine specifically designed
 - **Predictive Insights:** Generate predictive insights based on historical data from past cases.
 - **User-Friendly Interface:** A simple and intuitive user interface for legal professionals.
 
+## Current Progress
+- **Frontend:** The frontend is complete and functional.
+- **NLP and ML Model Development:** Ongoing work is focused on training and evaluation of the NLP and machine learning models to ensure accurate document analysis and insights.
+- **Backend and Business Logic:** Development is in progress, ensuring smooth integration with the frontend and efficient processing of legal data.
+  
 ## Technologies Used
 - **Programming Languages:** Java, Python
 - **Frameworks:** Spring Boot, React
 - **NLP Libraries:** Spacy, Gensim
 - **Database:** MongoDB
-
