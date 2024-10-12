@@ -35,7 +35,7 @@ This project aims to develop an AI-powered research engine specifically designed
   _This page highlights our commitment to ethical AI practices, ensuring fairness, transparency, and adherence to legal standards in all analyses._
 
 - **Commercial Courts Act, 2015:**  
-  ![](screenshots/act2015.jpg)  
+  ![](screenshots/act_2015.jpg)  
   _A detailed section displaying relevant laws from the Commercial Courts Act, 2015, integrated directly into the platform for easy reference by legal professionals._
 
 
